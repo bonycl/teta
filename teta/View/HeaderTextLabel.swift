@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-//import SnapKit
+import SnapKit
 
 class HeaderTextLabel: UIView {
         
@@ -18,7 +18,7 @@ class HeaderTextLabel: UIView {
        label.textAlignment = .left
        label.numberOfLines = 1
        label.font = .systemFont(ofSize: 16, weight: .medium)
-       //TODO: checking constrains via background color
+      
 //       label.backgroundColor = .gray
        label.text = "error"
        return label

@@ -21,10 +21,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let homeVC = LoginViewController()
         
         let navController = UINavigationController(rootViewController: homeVC)
+        
         navController.navigationBar.topItem?.backButtonTitle = ""
+//        navController.navigationBar.isHidden = false
         self.window?.rootViewController = navController
         self.window?.makeKeyAndVisible()
     }
 
 }
+
 

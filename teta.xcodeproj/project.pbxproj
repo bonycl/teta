@@ -9,20 +9,19 @@
 /* Begin PBXBuildFile section */
 		02658CE02B3BEACB007660AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02658CDF2B3BEACB007660AF /* AppDelegate.swift */; };
 		02658CE22B3BEACB007660AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02658CE12B3BEACB007660AF /* SceneDelegate.swift */; };
-		02658CE42B3BEACB007660AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02658CE32B3BEACB007660AF /* ViewController.swift */; };
 		02658CE92B3BEACC007660AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02658CE82B3BEACC007660AF /* Assets.xcassets */; };
 		02658CEC2B3BEACC007660AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02658CEA2B3BEACC007660AF /* LaunchScreen.storyboard */; };
 		02658CF42B3BED27007660AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02658CF32B3BED27007660AF /* LoginViewController.swift */; };
 		02658CF92B3BF562007660AF /* HeaderTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02658CF82B3BF562007660AF /* HeaderTextLabel.swift */; };
 		02658CFB2B3BF577007660AF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02658CFA2B3BF577007660AF /* CustomButton.swift */; };
 		02658CFD2B3BF5A6007660AF /* CustomTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02658CFC2B3BF5A6007660AF /* CustomTextFiled.swift */; };
+		35248359FCE5A119DD815AA0 /* Pods_teta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9FEF586FF0626C74C7A5B5D /* Pods_teta.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02658CDC2B3BEACB007660AF /* teta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02658CDF2B3BEACB007660AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02658CE12B3BEACB007660AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02658CE32B3BEACB007660AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		02658CE82B3BEACC007660AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02658CEB2B3BEACC007660AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02658CED2B3BEACC007660AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +29,9 @@
 		02658CF82B3BF562007660AF /* HeaderTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTextLabel.swift; sourceTree = "<group>"; };
 		02658CFA2B3BF577007660AF /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		02658CFC2B3BF5A6007660AF /* CustomTextFiled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFiled.swift; sourceTree = "<group>"; };
+		1BE5F093FD7BEB58DACAA89E /* Pods-teta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teta.release.xcconfig"; path = "Target Support Files/Pods-teta/Pods-teta.release.xcconfig"; sourceTree = "<group>"; };
+		7E3F4388715EA1421CD16804 /* Pods-teta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teta.debug.xcconfig"; path = "Target Support Files/Pods-teta/Pods-teta.debug.xcconfig"; sourceTree = "<group>"; };
+		F9FEF586FF0626C74C7A5B5D /* Pods_teta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35248359FCE5A119DD815AA0 /* Pods_teta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +51,8 @@
 			children = (
 				02658CDE2B3BEACB007660AF /* teta */,
 				02658CDD2B3BEACB007660AF /* Products */,
+				0BA4E1C28333F650BEC1C709 /* Pods */,
+				B9F477ACCE6A59DED31C44E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,7 +78,6 @@
 		02658CF52B3BED2C007660AF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				02658CE32B3BEACB007660AF /* ViewController.swift */,
 				02658CF32B3BED27007660AF /* LoginViewController.swift */,
 			);
 			path = Controller;
@@ -100,6 +104,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		0BA4E1C28333F650BEC1C709 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E3F4388715EA1421CD16804 /* Pods-teta.debug.xcconfig */,
+				1BE5F093FD7BEB58DACAA89E /* Pods-teta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9F477ACCE6A59DED31C44E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9FEF586FF0626C74C7A5B5D /* Pods_teta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02658CF02B3BEACC007660AF /* Build configuration list for PBXNativeTarget "teta" */;
 			buildPhases = (
+				65DAC5E49569C5CE5C55C129 /* [CP] Check Pods Manifest.lock */,
 				02658CD82B3BEACB007660AF /* Sources */,
 				02658CD92B3BEACB007660AF /* Frameworks */,
 				02658CDA2B3BEACB007660AF /* Resources */,
+				E64544E7E965F965DAE89511 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +188,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65DAC5E49569C5CE5C55C129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-teta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64544E7E965F965DAE89511 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teta/Pods-teta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-teta/Pods-teta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-teta/Pods-teta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02658CD82B3BEACB007660AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -174,7 +239,6 @@
 				02658CF42B3BED27007660AF /* LoginViewController.swift in Sources */,
 				02658CFB2B3BF577007660AF /* CustomButton.swift in Sources */,
 				02658CFD2B3BF5A6007660AF /* CustomTextFiled.swift in Sources */,
-				02658CE42B3BEACB007660AF /* ViewController.swift in Sources */,
 				02658CE02B3BEACB007660AF /* AppDelegate.swift in Sources */,
 				02658CE22B3BEACB007660AF /* SceneDelegate.swift in Sources */,
 			);
@@ -231,7 +295,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -294,7 +358,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -315,6 +379,7 @@
 		};
 		02658CF12B3BEACC007660AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3F4388715EA1421CD16804 /* Pods-teta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -342,6 +407,7 @@
 		};
 		02658CF22B3BEACC007660AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BE5F093FD7BEB58DACAA89E /* Pods-teta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

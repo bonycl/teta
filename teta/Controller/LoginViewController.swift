@@ -8,13 +8,25 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    //MARK: - UI Components
+    
+    //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        self.view.backgroundColor = .systemPink
+        setupUI()
     }
+ 
     
+    //MARK: - Setup UI
+    private func setupUI() {
+        self.view.backgroundColor = .white
+
+
+        self.navigationItem.title = "Регистрация"
+        self.navigationController?.navigationBar.barTintColor = .blue
+
+    }
 
 }

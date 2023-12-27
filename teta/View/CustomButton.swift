@@ -14,7 +14,7 @@ class CustomButton: UIButton {
         self.setTitle(title, for: .normal)
         self.layer.cornerRadius = 22
         self.layer.masksToBounds = true
-        self.titleLabel?.font = UIFont.sfProText(ofSize: 16, weight: .semiBold)
+        self.titleLabel?.font = .systemFont(ofSize: 16, weight: .semibold)
         switch hasBackground {
         case true:
             //MARK: - Setup BackgroundColor for button
